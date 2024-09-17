@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Book</OriginalElement>
+  <nodes>
+    <node x="441.5" y="898.5">Magazine</node>
+    <node x="224.75" y="898.5">SchoolBook</node>
+    <node x="441.5" y="590.5">PrintedPublication</node>
+    <node x="-50.09754966887425" y="703.0">Main</node>
+    <node x="181.5" y="618.5">Book</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Book" relationship="CREATE">
+      <point x="48.75" y="-142.0" />
+      <point x="96.15245033112575" y="1145.0" />
+      <point x="328.0" y="1145.0" />
+      <point x="328.0" y="1105.0" />
+      <point x="188.0" y="1105.0" />
+      <point x="188.0" y="885.0" />
+      <point x="224.75" y="885.0" />
+      <point x="-43.25" y="86.5" />
+    </edge>
+    <edge source="Main" target="PrintedPublication" relationship="TO_MANY">
+      <point x="-48.75" y="-142.0" />
+      <point x="-1.347549668874251" y="488.31231788079475" />
+      <point x="484.75" y="488.31231788079475" />
+      <point x="-43.25" y="114.5" />
+    </edge>
+    <edge source="Magazine" target="PrintedPublication" relationship="GENERALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="528.0" y="865.0" />
+      <point x="388.0" y="865.0" />
+      <point x="388.0" y="585.0" />
+      <point x="328.0" y="585.0" />
+      <point x="328.0" y="545.0" />
+      <point x="571.25" y="545.0" />
+      <point x="43.25" y="114.5" />
+    </edge>
+    <edge source="Book" target="PrintedPublication" relationship="GENERALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="268.0" y="585.0" />
+      <point x="328.0" y="585.0" />
+      <point x="328.0" y="545.0" />
+      <point x="571.25" y="545.0" />
+      <point x="43.25" y="114.5" />
+    </edge>
+    <edge source="SchoolBook" target="Book" relationship="GENERALIZATION">
+      <point x="0.0" y="-86.5" />
+      <point x="43.25" y="86.5" />
+    </edge>
+    <edge source="Main" target="Magazine" relationship="CREATE">
+      <point x="48.75" y="-142.0" />
+      <point x="96.15245033112575" y="1145.0" />
+      <point x="328.0" y="1145.0" />
+      <point x="328.0" y="1105.0" />
+      <point x="528.0" y="1105.0" />
+      <point x="0.0" y="86.5" />
+    </edge>
+    <edge source="Main" target="SchoolBook" relationship="CREATE">
+      <point x="48.75" y="-142.0" />
+      <point x="96.15245033112575" y="1145.0" />
+      <point x="328.0" y="1145.0" />
+      <point x="328.0" y="1105.0" />
+      <point x="327.9242384105961" y="1105.0" />
+      <point x="16.674238410596104" y="89.94662251655632" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7884294068504594" showDependencies="true" x="307.63072847682133" y="784.495761589404" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
